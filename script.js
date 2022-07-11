@@ -46,16 +46,6 @@ const init = function () {
 };
 init();
 
-// Starting conditions
-// score0El.textContent = 0;
-// score1El.textContent = 0;
-// diceEl.classList.add('hidden');
-
-// let scores = [0, 0];
-// let currentScore = 0;
-// let activePlayer = 0;
-// let playing = true;
-
 // Rolling dice functionallity
 btnRoll.addEventListener('click', function () {
   if (playing) {
@@ -103,20 +93,3 @@ btnHold.addEventListener('click', function () {
 
 // Resetting the Game
 btnNew.addEventListener('click', init);
-
-//////////////////////////////////////////////////////
-// 10th LECTION - Rolling the Dice
-// Вкарваме фукционалността на играта !
-// Допълвах кода отгоре !!!
-
-///////////////////////////////////////////////////////
-// 11th LECTION - Switching Active Players
-// Допълвах кода отгоре !!!
-
-///////////////////////////////////////////////////////
-// 12th LECTION - Holding The Current Score
-// Допълвах кода отгоре !!!
-
-//////////////////////////////////////////////////////
-// 13th LECTION - Resetting The Game
-// Допълвах кода отгоре !!!
